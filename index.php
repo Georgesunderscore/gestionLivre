@@ -31,11 +31,13 @@ complète d’un auteur </p>
      });
 
 $a1 = new Auteur("kayal","georges");
-echo $a1;
+//echo $a1;
 
 
  $l1 = new Livre("la vie", 365, 1980, 20,$a1);
- echo $l1;
+ //echo $l1;
+ $l1 = new Livre("Bio", 365, 1980, 20,$a1);
+ //echo $l1;
 
 
  $a1-> afficherBibliographie();

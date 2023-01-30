@@ -74,7 +74,7 @@ class Auteur
     public function afficherBibliographie(){
         echo "<h1>Livres de $this </h1> ";
         foreach($this->_listDesLivres  as $objectLivre){
-            echo "<h2>". $objectLivre->getTitre() .'('.$objectLivre->getAnnParution().') : '. $objectLivre->getNombre() . ' Pages /'. $objectLivre->getPrix().'€'. "</h2> ";
+            echo "<p>". $objectLivre->getTitre() .'('.$objectLivre->getAnnParution().') : '. $objectLivre->getNombre() . ' Pages /'. $objectLivre->getPrix().'€'. "</p> ";
             
             
         }
