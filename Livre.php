@@ -20,7 +20,7 @@ class Livre
 		$this->_annParution = $annParution;
 		$this->_prix = $prix;
         $this->_auteur = $auteur;
-		$this->_titulaire ->ajoutLivre($this);
+		$this->_auteur->ajoutLivre($this);
         
 	}
 
