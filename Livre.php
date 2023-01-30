@@ -20,7 +20,8 @@ class Livre
 		$this->_annParution = $annParution;
 		$this->_prix = $prix;
         $this->_auteur = $auteur;
-        $auteur ->ajoutLivre($this);
+		$this->_titulaire ->ajoutLivre($this);
+        
 	}
 
 	public function getTitre(): string
